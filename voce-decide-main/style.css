@@ -1,0 +1,16 @@
+button{
+background-color: var(--azul-forte);
+color: azure;
+padding: 10px;
+border: 2px solid var azure;
+border-radius: 8px;
+font-size: 20px;
+margin: 5px;
+
+}
+button:hover{
+    background-color: var rgb(0, 34, 255);
+    transition: 0.5s;
+    border: #000
+    box-shadow
+}
