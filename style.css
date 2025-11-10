@@ -1,50 +1,51 @@
-root{
---azul:
---azul-forte:
---amarelo:
-laranja:
---branco:
---titulo: "Bitcount prop Double ink", system-ui;
---texto:"share Tech", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+:root{
+    --ônix: #403f4cff;
+--preto: #2c2b3cff;
+--preto-azul: rgb(0, 14, 36);
+--rich-black: #121420ff;
+--titulo: "Bungee Spice", sans-serif;
+--texto: "Indie Flower", cursive;
 }
 body{
-    background-color: var aqua;
-    font-family: var(texto);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  background-color: var(--preto);  
+  font-family: var(--titulo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
 }
-
-
 
 button{
-background-color: var(--azul-forte);
-color: azure;
-padding: 10px;
-border: 2px solid var azure;
-border-radius: 8px;
-font-size: 20px;
-margin: 5px;
+  background-color: #403f4cff;
+  color: var(--preto);
+  padding: 10px;
+  border: 2px olid var(--preto-azul);
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 5px;
 
 }
+
 button:hover{
-    background-color: var rgb(0, 34, 255);
-    transition: 0.5s;
-    border: #000;
-    box-shadow: 2px 2px 10px #000;
+  background-color: #121420ff;
+  color: var(--preto);
+  transition: 0.5px;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 10px #000;
 }
+
 main{
-    margin: 40px 20px;
-    max-width: 90%;
-    text-align: center;
-    font-size: 28px;
+  margin: 40px 20px;
+  max-width: 90%;
+  text-shadow: 28px;
 }
+
 .passo{
-    display: none;
+  display: none;
 }
 
 .ativo{
-    display: block;
+  display: block;
 }
